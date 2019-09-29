@@ -78,6 +78,7 @@ a {
 
 .section-overflow {
     height: 100vh;
+    widows: 100%;
 }
 
 .lange-icon {}
@@ -154,7 +155,7 @@ a {
     transition:all 0.3s ease-in-out 0s;
 }
 .post-slide:hover .post-img img{
-    transform: scale(1.1,1.1);
+    transform: scale(1.03);
     filter:none;
     opacity:1;
 }
@@ -273,4 +274,21 @@ a {
 .icon-colour{
     color: #196cca;
     text-shadow: 0 3px 10px #1b78e2d8;
+}
+
+.home-banner{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    float: left;
+}
+
+.section-background{
+    background-color: #faf9ff;
+}
+
+.resume-button{
+
+    border: 1px solid rgba(238, 227, 73, 0.89);
 }
