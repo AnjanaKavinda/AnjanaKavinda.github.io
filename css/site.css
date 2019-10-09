@@ -87,7 +87,7 @@ a {
 
 .lange-icon:hover {
     color: rgb(129, 173, 214);
-    text-shadow: 0 3px 10px rgb(129, 173, 214);
+    text-shadow: 0 3px 10px rgb(255, 255, 255);
 }
 
 
@@ -96,6 +96,9 @@ a {
 
 .home-text{
     font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .section-margin{
     margin-left: 30px;
@@ -330,3 +333,4 @@ a {
 .navbar-margin{
     margin-bottom: 50px;
 }
+
